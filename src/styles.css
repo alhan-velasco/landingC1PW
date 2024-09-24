@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .main-container {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .seasons button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .synopsis {
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .characters {
+    margin-top: 50px;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .character {
+    text-align: center;
+  }
+  
+  .character img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
