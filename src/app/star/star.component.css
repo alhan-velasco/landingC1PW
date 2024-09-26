@@ -1,0 +1,33 @@
+.star{
+    display: flex;
+width: 1313px;
+justify-content: center;
+align-items: center;
+gap: 120px;
+}
+.bike-image {
+    width: 673px;
+}
+
+.container_log_n_tit{
+    width: 520px;
+    height: 292px;
+    flex-shrink: 0;
+}
+
+.logo-image {
+    width: 520px;
+}
+
+.season-title {
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 0px 50px #E62012;
+-webkit-text-stroke-width: 2;
+-webkit-text-stroke-color: #FFF;
+font-family: "ITC Benguiat Condensed";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

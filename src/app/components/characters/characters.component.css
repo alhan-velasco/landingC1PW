@@ -1,0 +1,93 @@
+.img11{
+    width: 1510px;
+}
+
+h2{
+    color: #FFF;
+    font-family: "DK Downward Fall";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 39.68px;
+    text-align: center;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .character {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 636px;
+    height: 356px;
+    flex-shrink: 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .content img {
+    width: 197px;
+    height: 291px;
+    flex-shrink: 0;
+  }
+  
+  .text {
+    width: 60%;
+    padding-left: 20px;
+  }
+  
+  .text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "ITC Benguiat Condensed";
+    font-size: 32px;
+    font-style: normal;
+  }
+  
+  .text p {
+    color: #FFF;
+    text-align: center;
+    font-family: "ITC Benguiat Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Estilo azul */
+  .blue-border {
+    fill: #000;
+    stroke-width: 0.5px;
+    stroke: #1D69C6;
+    filter: drop-shadow(0px 0px 12.5px #1D69C6);
+    width: 636px;
+    height: 356px;
+    flex-shrink: 0;
+  }
+  
+  /* Estilo rojo */
+  .red-border {
+    fill: #000;
+    stroke-width: 0.5px;
+    stroke: #E62012;
+    filter: drop-shadow(0px 0px 12.5px #E62012);
+    width: 636px;
+    height: 356px;
+    flex-shrink: 0;
+  }
+  

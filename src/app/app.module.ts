@@ -7,6 +7,7 @@ import { UsersDashboardComponent } from './users/users-dashboard/users-dashboard
 import { HeaderComponent } from './components/header/header.component';
 import { SynopsisComponent } from './components/synopsis/synopsis.component';
 import { CharactersComponent } from './components/characters/characters.component';
+import { StarComponent } from './star/star.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CharactersComponent } from './components/characters/characters.componen
     UsersDashboardComponent,
     HeaderComponent,
     SynopsisComponent,
-    CharactersComponent
+    CharactersComponent,
+    StarComponent
   ],
   imports: [
     BrowserModule,

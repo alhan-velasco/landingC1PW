@@ -1,0 +1,43 @@
+.synopsis{
+    display: flex;
+    width: 1349px;
+    height: 720px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+h2{
+    color: #026B94;
+    text-align: center;
+    text-shadow: 0px 0px 6.4px #026B94;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #026B94;
+    font-family: "ITC Benguiat Condensed";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    color: #FFF;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 836px;
+    height: 547px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.cont-sip{
+    width: 836px;
+    height: 650px;
+    flex-shrink: 0;
+}
+
