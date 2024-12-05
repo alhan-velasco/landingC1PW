@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-synopsis',
   templateUrl: './synopsis.component.html',
-  styleUrl: './synopsis.component.css'
+  styleUrls: ['./synopsis.component.css']
 })
 export class SynopsisComponent {
-
+  synopsisText = `En el pueblo de Hawkins, Indiana, en 1983, el niño Will Byers desaparece misteriosamente. 
+  Su madre, Joyce, y el jefe de policía, Jim Hopper, inician una búsqueda. Pronto se descubre que un científico ha abierto una
+  brecha hacia una dimensión alternativa llamada "Upside Down", donde vive una criatura monstruosa llamada Demogorgon. 
+  Un grupo de niños, liderados por Mike, y una niña con poderes psicoquinéticos llamada Eleven,
+  se unen para encontrar a Will y cerrar la brecha.`;
 }

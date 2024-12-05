@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-star',
   templateUrl: './star.component.html',
-  styleUrl: './star.component.css'
+  styleUrls: ['./star.component.css']
 })
 export class StarComponent {
-
+  seasonTitle = 'Temporada 1';
 }

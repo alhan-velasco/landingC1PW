@@ -4,9 +4,6 @@
   </div>
 
   <div class="seasons-buttons">
-    <button class="season-btn">Temporada 1</button>
-    <button class="season-btn">Temporada 2</button>
-    <button class="season-btn">Temporada 3</button>
-    <button class="season-btn">Temporada 4</button>
+    <button *ngFor="let season of seasons" class="season-btn">{{ season }}</button>
   </div>
 </div>
